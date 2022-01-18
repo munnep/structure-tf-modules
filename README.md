@@ -1,8 +1,8 @@
 # structure_tf_modules_test
 
-This repo has a vagrant box to easily use for testing the example described in this repository [https://github.com/kikitux/structure-tf-modules#readme](https://github.com/kikitux/structure-tf-modules#readme)
+This repo has a vagrant box to easily use for testing this repository [https://github.com/kikitux/structure-tf-modules#readme](https://github.com/kikitux/structure-tf-modules#readme)
 
-You can then test the nothing-module repo with kitchen-terraform as described in the earlier mentioned repository
+You can then run the repo script to have a structure create to use as a template for your environment. 
 
 Vagrant virtual machine:
 - ubuntu virtual machine starts
