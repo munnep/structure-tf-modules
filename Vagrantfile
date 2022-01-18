@@ -4,6 +4,7 @@ Vagrant.configure("2") do |config|
   
   config.vm.provision "shell", path: "vagrant_scripts/install_terraform.sh"  
   config.vm.provision "shell", path: "vagrant_scripts/install_bundle.sh"
+  config.vm.provision "shell", path: "vagrant_scripts/git_clone_repo.sh"
   
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024*2
